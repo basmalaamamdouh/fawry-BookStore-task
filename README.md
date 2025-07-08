@@ -186,25 +186,25 @@ quantum-bookstore/
 Below is an example of the program's output for various test scenarios:
 ```
 === Test 1: Adding Books to Inventory ===
-Quantum book store: Added book: Data Structures and Algorithms by Robert Sedgewick (111-2-333-44444-5)
-Quantum book store: Added book: Introduction to Machine Learning by Andrew Ng (222-3-444-55555-6)
-Quantum book store: Added book: System Design Interview by Alex Xu (333-4-555-66666-7)
-Quantum book store: Added book: Deep Learning Fundamentals by Ian Goodfellow (444-5-666-77777-8)
-Quantum book store: Added book: Web Development with React by Robin Wieruch (555-6-777-88888-9)
-Quantum book store: Added book: Database Systems Concepts by Abraham Silberschatz (666-7-888-99999-0)
-Quantum book store: Added book: Future of Artificial Intelligence by Dr. Jane Watson (777-8-999-00000-1)
+Quantum book store: Added book: Data Structures and Algorithms by roaa (111-2-333-44444-5)
+Quantum book store: Added book: Introduction to Machine Learning by tito (222-3-444-55555-6)
+Quantum book store: Added book: System Design Interview by bosy (333-4-555-66666-7)
+Quantum book store: Added book: Deep Learning Fundamentals by grapes (444-5-666-77777-8)
+Quantum book store: Added book: Web Development with React by 3noub (555-6-777-88888-9)
+Quantum book store: Added book: Database Systems Concepts by bontos (666-7-888-99999-0)
+Quantum book store: Added book: Future of Artificial Intelligence by mazen (777-8-999-00000-1)
 Quantum book store: Current inventory count: 7
 
 === Test 2: Paper Book Purchases ===
-Quantum book store: Shipping 5x "Data Structures and Algorithms" to 789 Maple Drive, Denver, CO 80202
+Quantum book store: Shipping 5x "Data Structures and Algorithms" to sanfa
 Quantum book store: Purchase successful. Total paid: $278.75
-Quantum book store: Shipping 3x "System Design Interview" to 456 Cedar Lane, Seattle, WA 98101
-Quantum book store: Purchase successful. Total paid: $116.85
+Quantum book store: Shipping 3x "System Design Interview" to qalyub
+Quantum book store: Purchase successful. Total paid: $116.85000000000001
 
 === Test 3: EBook Purchases ===
-Quantum book store: Sending "Introduction to Machine Learning" (PDF) to student@university.edu
+Quantum book store: Sending "Introduction to Machine Learning" (PDF) to customer1@dgfdf.com
 Quantum book store: Purchase successful. Total paid: $85.0
-Quantum book store: Sending "Deep Learning Fundamentals" (EPUB) to researcher@institute.org
+Quantum book store: Sending "Deep Learning Fundamentals" (EPUB) to customer1@dgfdf.com
 Quantum book store: Purchase successful. Total paid: $65.0
 
 === Test 4: Showcase Book Purchase Attempt ===
@@ -217,9 +217,20 @@ Quantum book store: Expected error: Quantum book store: Book with ISBN 000-0-000
 Quantum book store: Expected error: Quantum book store: Not enough stock for System Design Interview (ISBN: 333-4-555-66666-7)
 
 === Test 7: Removing Outdated Books ===
-Quantum book store: Removed 1 outdated books
-Quantum book store: - Removed: Database Systems Concepts by Abraham Silberschatz (2018)
-Quantum book store: Updated inventory count: 6
+Quantum book store: Removed 0 outdated books
+Quantum book store: Updated inventory count: 7
+
+=== Test 8: Post-Removal Purchases ===
+Quantum book store: Shipping 4x "Web Development with React" to lmao
+Quantum book store: Purchase successful. Total paid: $189.0
+
+=== Test 9: Multiple EBook Purchases ===
+Quantum book store: Sending "Database Systems Concepts" (PDF) to customer1@dgfdf.com
+Quantum book store: Purchase successful. Total paid: $158.39999999999998
+
+=== Testing Complete ===
+Quantum book store: Final inventory count: 7
+
 ```
 
 ## Extension Guidelines
