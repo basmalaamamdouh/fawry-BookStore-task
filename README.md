@@ -168,8 +168,8 @@ quantum-bookstore/
 ## How to Run
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/basmalaamamdouh/quantum-bookstore.git
-   cd quantum-bookstore
+   git clone https://github.com/basmalaamamdouh/fawry-BookStore-task.git
+   cd fawry-BookStore-task
    ```
 
 2. **Compile the Code**:
